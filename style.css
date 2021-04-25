@@ -1084,6 +1084,10 @@ p {
     height: 270px;
 }
 
+footer {
+    font-size: 16px;
+}
+
 @media only screen and (max-width: 767px) {
     .bg-banniere {
         background-image: url(./img/la-chouette-agence-banniere_small.jpg);
@@ -1095,6 +1099,15 @@ p {
     .portfolio-thumb {
         width: 320px;
         height: 320px;
+    }
+
+    footer *+* {
+        margin-top: 10px;
+    }
+
+    footer ul a {
+        display: inline-block;
+        padding: 10px;
     }
 }
 /*-------------------*/
