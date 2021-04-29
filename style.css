@@ -1061,6 +1061,10 @@ h4 {
     max-width: 450px;
 }
 
+.l-bloc {
+    color: #000;
+}
+
 .citation {
     margin-left: auto;
     margin-right: auto;
@@ -1084,8 +1088,36 @@ p {
     height: 270px;
 }
 
+h2 {
+    position: relative;
+}
+
+.texture-paper::before {
+    background: url(./img/texture-paper.png), rgba(75,62,42,.4);
+}
+
+.black-background {
+    background: rgba(75,62,42,.7);
+}
+
+.btn-atomic-tangerine {
+    color: #420F00!important;
+}
+
 footer {
     font-size: 16px;
+}
+
+footer * {
+    color: #420F00!important;
+}
+
+footer a, footer .icon-md {
+    transition: transform .3s ease-in-out;
+}
+
+footer a:hover, footer a:focus, footer .icon-md:hover, footer .icon-md:focus {
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 767px) {
