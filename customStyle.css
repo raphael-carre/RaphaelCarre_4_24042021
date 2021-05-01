@@ -3,7 +3,7 @@
     height: 40px;
 }
 
-.site-navigation a:hover, .site-navigation a:focus, footer ul a:hover, footer ul a:focus {
+.site-navigation a:hover, .site-navigation a:focus, footer ul a:hover, footer ul a:focus, .email-link:hover, .email-link:focus {
     text-shadow: .1em .1em .1em rgba(0,0,0,.4);
 }
 
@@ -66,6 +66,19 @@ h2 {
 
 .tc-true-white {
     color: #fff!important;
+}
+
+.contact-info a {
+    display: inline-block;
+}
+
+.contact-info adress {
+    display: block;
+    margin: 0.25em 0;
+}
+
+.contact-info a {
+    font-weight: bold;
 }
 
 footer {
