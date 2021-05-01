@@ -1,0 +1,108 @@
+.navbar-brand img {
+    width: 214px;
+    height: 40px;
+}
+
+.site-navigation a:hover, .site-navigation a:focus, footer ul a:hover, footer ul a:focus {
+    text-shadow: .1em .1em .1em rgba(0,0,0,.4);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    margin: 15px auto;
+    max-width: 590px;
+}
+
+.title.v2 {
+    max-width: 450px;
+}
+
+.l-bloc {
+    color: #000;
+}
+
+.citation {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 562px;
+}
+
+.citation q {
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    font-size: 16px;
+}
+
+.portfolio-thumb {
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 270px;
+}
+
+h2 {
+    position: relative;
+}
+
+.texture-paper::before {
+    background: url(./img/texture-paper.png), rgba(75,62,42,.4);
+}
+
+.black-background {
+    background: rgba(75,62,42,.7);
+}
+
+.btn-atomic-tangerine {
+    color: #420F00!important;
+}
+
+.tc-true-white {
+    color: #fff!important;
+}
+
+footer {
+    font-size: 16px;
+}
+
+footer * {
+    color: #420F00!important;
+}
+
+footer a, footer .icon-md {
+    transition: all .3s ease-in-out;
+}
+
+footer a:hover, footer a:focus, footer .icon-md:hover, footer .icon-md:focus {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-banniere {
+        background-image: url(./img/la-chouette-agence-banniere_small.jpg);
+    }
+    .portfolio-row > div:not(:last-of-type) {
+        margin-bottom: 50px;
+    }
+
+    .portfolio-thumb {
+        width: 320px;
+        height: 320px;
+    }
+
+    footer *+* {
+        margin-top: 10px;
+    }
+
+    footer ul a {
+        display: inline-block;
+        padding: 10px;
+    }
+}
