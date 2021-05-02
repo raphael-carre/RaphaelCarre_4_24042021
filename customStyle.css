@@ -26,19 +26,22 @@
 }
 
 .citation {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     max-width: 562px;
-}
-
-.citation q {
-    font-size: 1.9rem;
-    font-weight: bold;
-    font-style: italic;
 }
 
 p {
     font-size: 16px;
+}
+
+.citation {
+    border-left: none;
+}
+
+.citation p:not(.citation__author) {
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .bold-link:hover, .bold-link:focus {
@@ -103,7 +106,11 @@ footer a, footer .icon-md {
 }
 
 footer a:hover, footer a:focus, footer .icon-md:hover, footer .icon-md:focus {
-    transform: scale(1.1);
+    transform: scale(1.15);
+}
+
+.links {
+    margin-top: 25px;
 }
 
 @media only screen and (max-width: 767px) {

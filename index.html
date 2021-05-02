@@ -45,18 +45,18 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="La chouette agence" height="40" /></a>
+				<a role="button" aria-label="La chouette agence" aria-current="true" class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="La chouette agence" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Menu de navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" >
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a role="button" aria-current="true" title="Page d'accueil" href="index.html">Accueil</a>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a role="button" title="Contactez-nous" href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -75,7 +75,7 @@
 					La chouette agence.
 				</h1>
 				<div class="text-center">
-					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="contact.html" role="button" title="Contactez-nous" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -128,10 +128,10 @@
 		</div>
 		<div class="row voffset-lg voffset">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-				<figure class="citation">
-					<q>La chouette agence est une excellente agence web !<br /> Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos vente en ligne à Lyon.</q>
-					<figcaption>Maxime Guibard, PDG de À vos fourchettes</figcaption>
-				</figure>
+				<blockquote class="citation" aria-label="Commentaire">
+					<p>La chouette agence est une excellente agence web !<br />Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos vente en ligne à Lyon.</p>
+					<p class="citation__author">Maxime Guibard, PDG de À vos fourchettes</p>
+				</blockquote>
 			</div>
 		</div>
 	</div>
@@ -148,7 +148,7 @@
 				</h2>
 				<p class="text-center white">
 					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br>
-					<a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
+					<a class="ltc-white bold-link" role="button" title="Contactez-nous" href="contact.html">Contactez notre équipe</a><br>
 				</p>
 			</div>
 		</div>
@@ -166,7 +166,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" aria-controls="lightbox-modal" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="Image du site d'un journal local" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" role="button" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="Image du site d'un journal local" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -175,7 +175,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" aria-controls="lightbox-modal" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Image d'un site web pour photographes" /></a>
+				<a href="#" role="button" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Image d'un site web pour photographes" /></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
 				</h3>
@@ -186,7 +186,7 @@
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" aria-controls="lightbox-modal" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Image d'un site web pour un voyageur"/></a>
+				<a href="#" role="button" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Image d'un site web pour un voyageur"/></a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
 				</h3>
@@ -195,7 +195,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" aria-controls="lightbox-modal" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Image d'un site web pour agence de mariage" /></a>
+				<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Image d'un site web pour agence de mariage" /></a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
 				</h3>
@@ -216,7 +216,7 @@
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="contact.html" role="button" title="Contactez-nous" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
@@ -234,26 +234,26 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" title="Lien vers Twitter"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social__link" href="index.html" role="button" title="Lien vers Twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" title="Lien vers Facebook"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social__link" href="index.html" role="button" title="Lien vers Facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" title="Lien vers Dribble"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social__link" href="index.html" role="button" title="Lien vers Dribble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" title="Lien vers Instagram"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social__link" href="index.html" role="button" title="Lien vers Instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row links">
 					<div class="col-sm-4">
 						Partenaires
 							<ul>
@@ -296,6 +296,7 @@
 		</div>
 	</div>
 </footer>
+
 <!-- Footer - bloc-8 END -->
 
 </div>
